@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# PWA generated build artifacts (should only exist inside dist/)
+/sw.js
+/registerSW.js
+/workbox-*.js
+/manifest.webmanifest
+/assets/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +29,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+dist.zip
